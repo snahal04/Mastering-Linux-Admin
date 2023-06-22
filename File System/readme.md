@@ -25,4 +25,12 @@
 * `cp oldfile.txt newfile.txt` Copy to new file automatically creats new file if not exist
 * `mkdir files` create directory at pwd
 
+# Removing files and directories
+
+* `rmdir` Is used to remove the directories if they are **EMPTY** `rmdir file/`
+* `rm` Remove the files `rm file.txt` but will not work to remove directory so in case you want then use `rm -r` where r=recursive.
+* `rm -f` It will remove the files and never prompt
+* `rm -i` It will remove the file and prompt.
+* My preference to del a directory is `rm -fr` if you don't want prompt else use `rm -ir` If the directory may contain some imp files
+
 
