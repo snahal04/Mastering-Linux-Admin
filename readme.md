@@ -1,4 +1,4 @@
-# Skills required to become a system reliability engineer
+# Skills required to become a site reliability engineer
 1. **System Administration**: Knowledge of operating systems (such as Linux), `system configuration`, `package management`, `file systems`, and `monitoring tools`.
 
 2. **Programming and Scripting**: Proficient in at least one programming language (such as `Python`, `Go`, or `Java`) and have experience with scripting languages like `Bash` or `PowerShell`.
