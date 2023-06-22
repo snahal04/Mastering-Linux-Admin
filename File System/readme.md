@@ -23,5 +23,6 @@
 * `touch file1.txt file2.txt file3.cpp` Creating multiple files at a time.
 * `vi file1.txt` Creating a new file and editing it. To exit the editor `esc` then `shift+z+z` or `:wq!` With saving file `:q` Without saving file.
 * `cp oldfile.txt newfile.txt` Copy to new file automatically creats new file if not exist
+* `mkdir files` create directory at pwd
 
 
