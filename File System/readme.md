@@ -59,7 +59,21 @@
 
 * `find Desktop/ -name "sysadmin.txt"` Helps you to find any file with filename if it is available. `find . -name "filename"` `.` represent pwd.
 
+# Changing password of the user
 
+* `passwd username` Only root can change password
 
+# Wildcards
 
+* `*` Represent zero or more characters
+* `?` Represent a single character
+* `[]` Represent a range of characters
 
+For example, let's create some files `touch abc1.txt abc2.txt abc3hh.txt` so in order to remove all those file starting with abc in a single command `rm abc*` To create 10 files in one line `touch abc{1..9}.txt` to check the result do `ls -ltr ? abc*` in your system. to remove files `rm abc{1..9}*`.
+
+# Bonus 
+
+* `man ls` or `man rm` or `man <inbuilt command>` you can check the manual to know in the deep of any command use space to view more and q to quit
+* `ls --help` or `rm --help` to check help which gives short details of a particular command you want.
+
+You can cover the theory topic such as Linux system file types from <a href="https://www.geeksforgeeks.org/linux-file-system/" target="_blank">Linux system file GFG Article</a>
