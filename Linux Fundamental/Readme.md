@@ -24,7 +24,7 @@ Table of numeric representation of permission.
 * `chown` Change ownership of a file or directory
 * `chgrp` Change Group of a file or directory
 
-# Access COntrol List
+# Access Control List
 
 What is ACL : Use to give or restrict permission to any user who is not a member of the group created by you. Used by DNS, Web servers to secure core files from attackers.
 <br>
@@ -37,3 +37,22 @@ What is ACL : Use to give or restrict permission to any user who is not a member
 <br>
 <br>
 ![image](https://github.com/snahal04/Site-Reliability-Engineer/assets/77937488/86886b6a-9dc5-4509-8f77-6feda0802e0a)
+
+# Help Command
+
+* `whatis <commandName>`
+* `<commandName> --help`
+* `man <commandName`
+
+# Adding Text to File
+
+* vi
+* echo
+* vim
+* nano
+
+echo will echo back what you have typed `echo hello world > new1.txt` `>` it will update the line 1 and `>>` it will append the text in new line.
+* `wc -c filename` It will give the count of characters in a file.
+
+# Filters / Text Processing Commands
+
