@@ -36,7 +36,7 @@ To find the uname and Ip address of the server
 
 ![Image](https://github.com/snahal04/Site-Reliability-Engineer/assets/77937488/322485d0-9809-4468-84cc-742ad18b031d)
 
-* enter `bin` and then `hash` to start the transfer or binary files
+* enter `bin` and then `hash` to start the transfer in binary 
 * `put snahal.txt` It will transfer the files to the server
 
 Now you have successfully transferred a file using FTP with default port 22
