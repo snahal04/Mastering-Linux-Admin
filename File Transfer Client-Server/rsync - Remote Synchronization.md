@@ -20,4 +20,4 @@ tar (options) (filename.tar) (source address) here `.` represent current directo
 
 # Pull a file from Server machine (destination) 
 
-`rsync -avzh username@192.168.1.14:/home/username/fileToCopy.txt /home/snahal/Desktop`
+* `rsync -avzh username@192.168.1.14:/home/username/fileToCopy.txt /home/snahal/Desktop`
