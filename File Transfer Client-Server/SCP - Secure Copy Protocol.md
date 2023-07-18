@@ -1,6 +1,6 @@
-Default port 22 
-Faster then FTP
-Doesn't provide file managemt and file access like in FTP
+* Default port 22 
+* Faster then FTP
+* Doesn't provide file managemt and file access like in FTP
 
 ## Client Server
 Create a new file to transfer `touch file1.txt`
