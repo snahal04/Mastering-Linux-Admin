@@ -11,7 +11,7 @@ Create a directory with any name let say "newWeb" and create a new "index.html" 
 * `cd /var/www`
 * `sudo mkdir newWeb`
 * `sudo touch ./newWeb/index.html`
-* `sudo touch ./newWeb/styles.css`
+* `sudo touch ./newWeb/styles.css` <br>
 
 Now add the above HTML and CSS sample code to their respective files using any text editor `sudo nano ./newWeb/index.html` and same for css
 
@@ -20,11 +20,11 @@ Now add the above HTML and CSS sample code to their respective files using any t
 copy the content of 000-default.conf to a new file newWeb.conf
 
 * `sudo cp 000-default.conf newWeb.conf`
-Now edit the file using `sudo nano newWeb.conf` and add/update the following lines
+<br>Now edit the file using `sudo nano newWeb.conf` and add/update the following lines
 
 * ServerAdmin yourname@gmail.com
 * DocumentRoot /var/www/newWeb/
-* ServerName snahal.com
+* ServerName snahal.com <br>
 Ctrl + x exit and y save and Enter
 
 * `sudo a2ensite newWeb.conf`  After setting up our website, we need to activate the virtual hosts configuration file to enable it. We do that by running the command in the configuration file directory:
