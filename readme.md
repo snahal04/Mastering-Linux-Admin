@@ -7,7 +7,7 @@
 Welcome to the Linux Administration Learnings repository! This repository is dedicated to helping beginners and intermediate learners understand Linux system administration concepts and master the Linux Command-Line Interface (CLI) in a structured manner.
 
 <div align="center"
-  <img src="(https://github.com/snahal04/Mastering-Linux-Admin/assets/77937488/012f7b79-3993-4c27-bfa3-f1454b6a51d4)" alt="Example Screenshot">
+  <img src="https://github.com/snahal04/Mastering-Linux-Admin/assets/77937488/012f7b79-3993-4c27-bfa3-f1454b6a51d4" alt="Example Screenshot">
 </div>
 
 ## 🚀 Introduction
