@@ -1,0 +1,10 @@
+---
+- name: Changing File Permission
+  hosts: all
+
+  tasks:
+    - name: File Permission
+      file:
+        path: /home/snahal/text.txt
+        #mode: 0777
+        mode: a+rwx
