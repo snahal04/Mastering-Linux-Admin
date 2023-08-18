@@ -1,0 +1,22 @@
+---
+- name: Install Apache and open firewall port
+  hosts: all
+    #become: yes  # This allows you to run tasks as sudo
+
+  tasks:
+    - name: Install Apache
+      apt:
+        name: apache2
+        state: present
+
+    - name: Enable Apache service
+      systemd:
+        name: apache2
+        enabled: yes
+        state: started
+
+    - name: Open Firewall Port
+      ufw:
+        rule: allow
+        port: 80
+        state: enabled
