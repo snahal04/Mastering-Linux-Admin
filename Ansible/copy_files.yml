@@ -1,0 +1,13 @@
+---
+- name: Copy File
+  hosts: all
+
+  tasks:
+  - name: Copying File
+    become: true
+    copy:
+    src: /home/snahal/Downloads/playbooks/text.txt
+    dest: /home/snahal
+    owner: snahal
+    group: snahal
+    mode: 0644
