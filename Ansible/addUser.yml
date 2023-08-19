@@ -1,0 +1,17 @@
+---
+- name: Create user
+  hosts: all
+  tasks:
+    - name: Add uSer
+      user:
+       name: vicky
+       home: /home/vicky
+       shell: /bin/bash
+
+    - name: Change Password
+      user:
+        name: vicky
+        update_password: always
+        password: "{ { newpassword|password_hash('sha512') } }"
+
+# ansible-playbook addUser.yml --extra-vars newpassword=abc123
