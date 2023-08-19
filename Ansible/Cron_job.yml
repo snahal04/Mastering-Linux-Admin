@@ -1,0 +1,14 @@
+---
+- name: Schedule a cron job
+  hosts: all
+  tasks:
+    - name: Job Schedule
+      cron:
+        name: THis is it
+        minute: "0"
+        hour: "10"
+        day: "*"
+        month: "*"
+        weekday: "4"
+        user: root
+        job: "/home/snahal/Documents/cfile.sh"
