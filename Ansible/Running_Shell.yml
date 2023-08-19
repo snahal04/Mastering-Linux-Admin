@@ -1,0 +1,7 @@
+---
+- name: Run Shell Script
+  hosts: all
+
+  tasks:
+    - name: script
+      shell: "/home/snahal/Documents/cfile.sh"
