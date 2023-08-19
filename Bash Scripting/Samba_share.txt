@@ -1,0 +1,56 @@
+apt update -y
+
+apt install samba -y
+mkdir /share
+chmod 777 /share
+nano smb.conf
+[my-samba-share]
+    path = /share
+    public = no
+    valid users = tom, harry
+    read list = tom
+    write list = harry
+    browseable = yes
+    comment = "My Samba File Server"
+
+testparm  (use to check errors in all config files) Loaded service oK so no error
+
+useradd tom -s /sbin/nologin
+useradd harry -s /sbin/nologin
+
+smbpasswd -a tom
+smbpasswd -a harry
+
+systemctl start smbd
+systemctl start nmbd
+
+systemctl enable smbd nmbd
+
+
+GO to client GUI open file manager > other location (Connect : smb://server_ip);
+If you want to use CLI 
+
+apt install smbclient cifs-utils -y
+
+nano /etc/fstab for permanent mounting
+
+nano /etc/fstab
+//192.168.239.3/my-samba-share /mnt cifs defaults,_netdev,cred=/etc/cred.txt 0 0
+
+nano /etc/cred.txt
+username=tom
+password=tom3588
+
+
+mount -a (TO check if any error)
+df -TH 
+cd /mnt   (It is your destination)
+
+Now if you want to mount harry 
+then first
+
+umount /mnt
+nano /etc/creds.txt
+
+username=harry
+password=harry3588
