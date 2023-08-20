@@ -2,6 +2,8 @@
   <img src="https://img.shields.io/badge/Linux-Administration-blue" alt="Linux Admin">
 </div>
 
+Under Construction, Contributions accepted
+
 # Linux Administration Learnings
 
 Welcome to the Linux Administration Learnings repository! This repository is dedicated to helping beginners and intermediate learners understand Linux system administration concepts and master the Linux Command-Line Interface (CLI) in a structured manner.
