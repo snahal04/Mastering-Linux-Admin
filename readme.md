@@ -81,10 +81,4 @@ Help spread the word and make this resource more valuable for others! If you fin
 
 Your feedback is crucial to improving this repository and making it a valuable resource for all learners. If you have suggestions, ideas, or spot errors, please open an issue to discuss or provide feedback.
 
-## 📄 License
-
-This repository is open-source and available under the [MIT License](LICENSE). Feel free to use and share the content, but please attribute the source if you use it in your projects.
-
----
-
 Created with ❤️ by [Snahal kumar](https://github.com/snahal04)
