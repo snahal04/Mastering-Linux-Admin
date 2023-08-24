@@ -1,3 +1,4 @@
+[Video Tutorial](https://www.youtube.com/watch?v=XO5zWGKplXI)
 # Samba File Share Setup
 
 This repository contains a bash script that automates the setup of a Samba file share on a Linux system. The script prompts the user for input regarding the share details, user accounts, and permissions, and then sets up the Samba share accordingly.
