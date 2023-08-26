@@ -51,8 +51,7 @@ writeFile(file) # Always override the content from 1st line
 readFile(file)
 
 appendFile(file) # Append the File in new line
-readFile(file
-        )
+readFile(file)
 addingLine(file)
 readFile(file)
 
